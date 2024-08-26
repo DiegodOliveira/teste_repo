@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #Ffc1d5;
+}
+
+#div-grande{
+    background-color: azure;
+   margin: 30px 20px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+   border-radius: 0.5%;
+   height: 500px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#div-texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#div-texto ul {
+    list-style: none; /* Remove os pontos da lista */
+    padding-left: 0;  /* Remove o recuo padrão da lista */
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Exibe os itens em linha */
+    align-items: center; /* Alinha verticalmente os itens */
+    gap: 20px;
+}
+
+#div-texto ul li {
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+#div-texto h1 {
+    margin: 0; /* Remove a margem padrão do h1 */
+}
+
+
+#div-texto ul li {
+    margin-right: 20px; 
+}
+
+#div-texto h1 {
+    margin: 0; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redirect-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.redirect-button:hover {
+    background-color: #0056b3;
+}
